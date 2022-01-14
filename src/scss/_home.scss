@@ -1,0 +1,29 @@
+.home-contant {
+  max-width: 1000px;
+  margin: 1rem auto;
+
+  & .home-center {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+    & .profile-fit {
+      grid-row: span 2;
+      height: fit-content;
+    }
+    & .hobbies-fit {
+      grid-row: span 1;
+    }
+    & .skills-fit {
+      grid-column: span 2;
+      height: fit-content;
+    }
+    & .blog-grid {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+    & .project-grid {
+      grid-column: span 3;
+    }
+  }
+}

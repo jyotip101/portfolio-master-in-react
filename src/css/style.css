@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Varela+Round&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Varela Round", sans-serif;
+  color: #042a38;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.fab,
+.fas {
+  color: #b32442;
+}
+
+@media screen and (max-width: 700px) {
+  .App .home-contant .home-center {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    justify-items: center;
+  }
+  .App .home-contant .home-center .profile-fit {
+    grid-row: unset;
+    max-width: 350px;
+  }
+  .App .home-contant .home-center .hobbies-fit {
+    grid-row: unset;
+    max-width: 350px;
+  }
+  .App .home-contant .home-center .skills-fit {
+    grid-column: unset;
+    max-width: 350px;
+  }
+  .App .home-contant .home-center .blog-grid {
+    grid-column: unset;
+    max-width: 350px;
+  }
+  .App .home-contant .home-center .project-grid {
+    grid-column: unset;
+    max-width: 350px;
+  }
+  .App .home-contant .home-center .project-grid .card {
+    max-width: 350px;
+  }
+  .App .home-contant .home-center .project-grid .card .btn-contant {
+    margin: 1rem 0;
+  }
+}
+
+.home-contant {
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+
+.home-contant .home-center {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-contant .home-center .profile-fit {
+  grid-row: span 2;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.home-contant .home-center .hobbies-fit {
+  grid-row: span 1;
+}
+
+.home-contant .home-center .skills-fit {
+  grid-column: span 2;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.home-contant .home-center .blog-grid {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.home-contant .home-center .project-grid {
+  grid-column: span 3;
+}
+
+.profile-contant {
+  max-width: 350px;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 15px #0000001a;
+          box-shadow: 0 5px 15px #0000001a;
+}
+
+.profile-contant .profile-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+}
+
+.profile-contant .profile-center img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.profile-contant .profile-center .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 0;
+}
+
+.profile-contant .profile-center .desc .name-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-contant .profile-center .desc .name-contact h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 0;
+}
+
+.profile-contant .profile-center .desc .name-contact h1 span {
+  font-size: 14px;
+  color: #010b0e8f;
+  text-align: end;
+}
+
+.profile-contant .profile-center .desc .name-contact p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 0;
+}
+
+.profile-contant .profile-center .desc .name-contact p i {
+  margin: 0 0.5rem 0 0;
+}
+
+.profile-contant .profile-center .desc .decs-contant {
+  margin-top: 1.5rem;
+  max-width: 550px;
+}
+
+.skills-contant {
+  margin: 0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-shadow: 0 5px 15px #0000001a;
+          box-shadow: 0 5px 15px #0000001a;
+}
+
+.skills-contant .skills-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills-contant .skills-center .title {
+  margin: 1rem 0;
+}
+
+.skills-contant .skills-center .lage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills-contant .skills-center .lage ul {
+  margin: 1rem;
+}
+
+.skills-contant .skills-center .lage ul li {
+  list-style: none;
+  margin: 1rem;
+}
+
+.hobbies {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 15px #0000001a;
+          box-shadow: 0 5px 15px #0000001a;
+}
+
+.hobbies .hobbies-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hobbies .hobbies-center .title {
+  font-size: 24px;
+  margin: 1rem 0;
+}
+
+.hobbies .hobbies-center .hobbies-contant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hobbies .hobbies-center .hobbies-contant .img-contant {
+  max-width: 250px;
+  max-height: 140px;
+}
+
+.hobbies .hobbies-center .hobbies-contant .img-contant img {
+  width: 100%;
+  max-height: 140px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.hobbies .hobbies-center .hobbies-contant h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: start;
+}
+
+.blog {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 15px #0000001a;
+          box-shadow: 0 5px 15px #0000001a;
+}
+
+.blog .blog-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog .blog-center .title {
+  font-size: 18px;
+  color: #010b0e8f;
+}
+
+.blog .blog-center .blog-contant {
+  margin: 1rem 0;
+}
+
+.blog .blog-center .blog-contant img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.blog .blog-center .blog-contant h3 {
+  margin: 1rem 0;
+}
+
+.blog .blog-center .blog-contant p {
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 450px;
+}
+
+.project-contant {
+  margin: 1rem;
+  background-color: #f2f2f2;
+}
+
+.project-contant .project-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.project-contant .project-center .header-contant {
+  background-color: #fff;
+  padding: 1rem;
+  width: 100%;
+  -webkit-box-shadow: 0 5px 15px #0000001a;
+          box-shadow: 0 5px 15px #0000001a;
+  border-radius: 12px;
+}
+
+.project-contant .project-center .header-contant .title {
+  margin: 1rem 0 0 1rem;
+}
+
+.project-contant .project-center .header-contant .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+.project-contant .project-center .header-contant .links li {
+  list-style: none;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  margin: 0 0.5rem 0.5rem 0;
+  font-weight: 600;
+  color: #042a38;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.project-contant .project-center .header-contant .links li:hover {
+  background-color: #b32442;
+  color: #fff;
+}
+
+.project-contant .project-center .header-contant .links .active {
+  background-color: #b32442;
+  color: #fff;
+}
+
+.project-contant .project-center .project-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin: 1rem 0;
+}
+
+.project-contant .project-center .project-cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 15px #0000001a;
+          box-shadow: 0 5px 15px #0000001a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  max-width: 280px;
+}
+
+.project-contant .project-center .project-cards .card .img-contant {
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.project-contant .project-center .project-cards .card .img-contant img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.project-contant .project-center .project-cards .card .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0.5rem 0;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.project-contant .project-center .project-cards .card .tags span {
+  font-size: 90%;
+  padding-left: 0.3rem;
+  color: #010b0e8f;
+  font-weight: 600;
+}
+
+.project-contant .project-center .project-cards .card .title {
+  margin: 0.5rem 0;
+}
+
+.project-contant .project-center .project-cards .card .desc {
+  text-align: justify;
+  font-size: 16px;
+  margin: 0.5rem 0;
+}
+
+.project-contant .project-center .project-cards .card .btn-contant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.project-contant .project-center .project-cards .card .btn-contant .btn {
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  background-color: #b32442;
+  color: #fff;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-weight: 600;
+}
+
+.project-contant .project-center .project-cards .card .btn-contant .btn:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+/*# sourceMappingURL=style.css.map */

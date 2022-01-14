@@ -1,0 +1,68 @@
+$max-width500: 630px;
+$max-width700: 700px;
+
+@media screen and (max-width: $max-width700) {
+  .App {
+    & .home-contant {
+      & .home-center {
+        // display: block;
+        grid-template-columns: auto;
+        justify-items: center;
+
+        & .profile-fit {
+          grid-row: unset;
+          max-width: 350px;
+        }
+        & .hobbies-fit {
+          grid-row: unset;
+          max-width: 350px;
+        }
+        & .skills-fit {
+          grid-column: unset;
+          max-width: 350px;
+        }
+        & .blog-grid {
+          grid-column: unset;
+          max-width: 350px;
+        }
+        & .project-grid {
+          grid-column: unset;
+          max-width: 350px;
+
+          & .card {
+            max-width: 350px;
+            & .btn-contant {
+              margin: 1rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $max-width500) {
+  .App {
+    & .home-contant {
+      & .home-center {
+        & .profile-contant {
+        }
+      }
+    }
+  }
+}
+
+// @media screen and (max-width: $max-width725) {
+//   .App {
+//     & .home-contant {
+//       & .home-center {
+//         & .profile-contant {
+//           width: 400px;
+//           & .profile-center {
+//             margin: 0;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

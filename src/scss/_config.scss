@@ -1,0 +1,32 @@
+$font-color: #042a38;
+$font-color-2: #fff;
+$bg-color-1: #f2f2f2;
+$main-color: #b32442;
+$transition: all 0.3s linear;
+$bg-color-2: #010b0e8f;
+$light-shadow: 0 5px 15px #0000001a;
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+$font-family: 'Varela Round', sans-serif;
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $bg-color-1;
+  font-family: $font-family;
+  color: $font-color;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.fab,
+.fas {
+  color: $main-color;
+}
