@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-master-in-react/static/css/main.2935dc3a.css",
+    "main.css": "/portfolio-master-in-react/static/css/main.c9cf88f1.css",
     "main.js": "/portfolio-master-in-react/static/js/main.0b569939.js",
     "static/media/cooking.jpg": "/portfolio-master-in-react/static/media/cooking.3593589f8608a63b4923.jpg",
     "static/media/reading.jpg": "/portfolio-master-in-react/static/media/reading.1ced792f04223621ef12.jpg",
@@ -8,11 +8,11 @@
     "static/media/how-to-add-icons-and-images-in-input-elements-using-css.png": "/portfolio-master-in-react/static/media/how-to-add-icons-and-images-in-input-elements-using-css.ff0c6e1135cd228276b1.png",
     "static/media/photo.jpg": "/portfolio-master-in-react/static/media/photo.fcf7f40f4022be3a382c.jpg",
     "index.html": "/portfolio-master-in-react/index.html",
-    "main.2935dc3a.css.map": "/portfolio-master-in-react/static/css/main.2935dc3a.css.map",
+    "main.c9cf88f1.css.map": "/portfolio-master-in-react/static/css/main.c9cf88f1.css.map",
     "main.0b569939.js.map": "/portfolio-master-in-react/static/js/main.0b569939.js.map"
   },
   "entrypoints": [
-    "static/css/main.2935dc3a.css",
+    "static/css/main.c9cf88f1.css",
     "static/js/main.0b569939.js"
   ]
 }
