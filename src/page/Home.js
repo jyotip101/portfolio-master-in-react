@@ -9,7 +9,7 @@ import Project from '../components/Project'
 const Home = () => {
   return (
     <>
-      <section className='home-contant'>
+      <section className='home-contant' id='home'>
         <div className='home-center'>
           <Profile />
           <Skills />
@@ -17,8 +17,9 @@ const Home = () => {
           <Hobbies />
 
           {/* <Contact /> */}
-          <Project />
         </div>
+        <Project />
+        <Contact />
       </section>
     </>
   )

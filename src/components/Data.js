@@ -1,6 +1,7 @@
 import cooking from '../img/cooking.jpg'
 import music from '../img/music.jpg'
 import reading from '../img/reading.jpg'
+import blog1 from '../img/how-to-add-icons-and-images-in-input-elements-using-css.png'
 
 export const hobbiesData = [
   {
@@ -25,9 +26,12 @@ export const hobbiesData = [
 
 export const blogData = {
   // id: 1,
-  title: 'blog title',
-  imgUrl: cooking,
-  desc: 'In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.',
+  title: 'How to add icon or image inside input element using CSS',
+  imgUrl: blog1,
+  desc1:
+    'In this article I will show you how to insert icons and images inside input elements.',
+  desc2:
+    'I have used border, padding, background, position, and transform properties of CSS.',
 }
 
 export const projectsHeader = [

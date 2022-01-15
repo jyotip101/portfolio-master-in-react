@@ -2,7 +2,7 @@ import React from 'react'
 import { blogData } from './Data'
 
 const Blog = () => {
-  const { desc, imgUrl, title } = blogData
+  const { desc1, desc2, imgUrl, title } = blogData
 
   return (
     <>
@@ -12,7 +12,15 @@ const Blog = () => {
           <div className='blog-contant'>
             <img src={imgUrl} alt={title} />
             <h3>{title}</h3>
-            <p>{desc}</p>
+            <p>{desc1}</p>
+            <p>{desc2}</p>
+            <a
+              href='https://how-to-add-icons-and-images-in-input-elements-using-css.netlify.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              how-to-add-icons-and-images-in-input-elements-using-css
+            </a>
           </div>
         </div>
       </section>

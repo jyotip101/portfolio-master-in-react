@@ -1,11 +1,11 @@
 .home-contant {
-  max-width: 1000px;
-  margin: 1rem auto;
+  max-width: 1200px;
 
   & .home-center {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
+    margin: 1rem;
 
     & .profile-fit {
       grid-row: span 2;

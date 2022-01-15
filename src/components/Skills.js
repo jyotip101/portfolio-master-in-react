@@ -19,13 +19,14 @@ const Skills = () => {
               </li>
 
               <li>
-                <i className='fab fa-js-square'></i> JavaScript
+                <i className='fab fa-java'></i> Java
               </li>
             </ul>
             <ul>
               <li>
-                <i className='fab fa-java'></i> Java
+                <i className='fab fa-js-square'></i> JavaScript
               </li>
+
               <li>
                 <i className='fab fa-html5'></i> HTML
               </li>

@@ -24,6 +24,10 @@ body {
   color: #b32442;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 700px) {
   .App .home-contant .home-center {
     -ms-grid-columns: auto;
@@ -33,34 +37,51 @@ body {
   .App .home-contant .home-center .profile-fit {
     grid-row: unset;
     max-width: 350px;
+    width: 100%;
   }
   .App .home-contant .home-center .hobbies-fit {
     grid-row: unset;
     max-width: 350px;
+    width: 100%;
   }
   .App .home-contant .home-center .skills-fit {
     grid-column: unset;
     max-width: 350px;
+    width: 100%;
   }
   .App .home-contant .home-center .blog-grid {
     grid-column: unset;
     max-width: 350px;
+    width: 100%;
   }
-  .App .home-contant .home-center .project-grid {
-    grid-column: unset;
-    max-width: 350px;
+  .App .home-contant .home-center .blog-grid .blog-center .blog-contant a {
+    position: relative;
+    bottom: unset;
+    margin: 0;
   }
-  .App .home-contant .home-center .project-grid .card {
-    max-width: 350px;
+  .App .home-contant .project-grid {
+    width: 100%;
   }
-  .App .home-contant .home-center .project-grid .card .btn-contant {
-    margin: 1rem 0;
+  .App .home-contant .project-grid .project-center .header-contant {
+    width: 95%;
+  }
+  .App .home-contant .contact-contant .contact-center {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
 .home-contant {
-  max-width: 1000px;
-  margin: 1rem auto;
+  max-width: 1200px;
 }
 
 .home-contant .home-center {
@@ -71,6 +92,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 1rem;
 }
 
 .home-contant .home-center .profile-fit {
@@ -246,6 +268,7 @@ body {
   padding: 1rem;
   background-color: #fff;
   border-radius: 10px;
+  margin-top: 0.5rem;
   -webkit-box-shadow: 0 5px 15px #0000001a;
           box-shadow: 0 5px 15px #0000001a;
 }
@@ -339,18 +362,34 @@ body {
 }
 
 .blog .blog-center .blog-contant h3 {
-  margin: 1rem 0;
+  margin: 1rem;
+  font-size: 150%;
+  margin-bottom: 2rem;
 }
 
 .blog .blog-center .blog-contant p {
-  margin: 1rem 0;
-  width: 100%;
-  max-width: 450px;
+  margin: 1rem;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.blog .blog-center .blog-contant a {
+  color: blue;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: absolute;
+  bottom: -90%;
+  margin-left: 1.5rem;
+}
+
+.blog .blog-center .blog-contant a:hover {
+  text-decoration: none;
 }
 
 .project-contant {
-  margin: 1rem;
+  margin: auto;
   background-color: #f2f2f2;
+  width: 95%;
 }
 
 .project-contant .project-center {
@@ -364,9 +403,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .project-contant .project-center .header-contant {
@@ -392,20 +431,20 @@ body {
   padding: 0.5rem;
 }
 
-.project-contant .project-center .header-contant .links li {
-  list-style: none;
+.project-contant .project-center .header-contant .links button {
   cursor: pointer;
   background-color: #f2f2f2;
   margin: 0 0.5rem 0.5rem 0;
   font-weight: 600;
   color: #042a38;
+  border: none;
   padding: 0.5rem 1rem;
   border-radius: 12px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
-.project-contant .project-center .header-contant .links li:hover {
+.project-contant .project-center .header-contant .links button:hover {
   background-color: #b32442;
   color: #fff;
 }
@@ -415,24 +454,38 @@ body {
   color: #fff;
 }
 
+.project-contant .project-center .header-contant .links .notActive {
+  background-color: #f2f2f2;
+  color: #042a38;
+}
+
 .project-contant .project-center .project-cards {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin: 1rem auto;
+  overflow: hidden;
+}
+
+.project-contant .project-center .project-cards .project-width {
+  max-width: 1200px;
+  width: 100%;
+  height: 450px;
+  margin: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  background-color: #f2f2f2;
-  border-radius: 12px;
-  margin: 1rem 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: scroll;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.project-contant .project-center .project-cards .card {
+.project-contant .project-center .project-cards .project-width .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -443,29 +496,30 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
   background-color: #fff;
   -webkit-box-shadow: 0 5px 15px #0000001a;
           box-shadow: 0 5px 15px #0000001a;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
   border-radius: 12px;
-  max-width: 280px;
 }
 
-.project-contant .project-center .project-cards .card .img-contant {
+.project-contant .project-center .project-cards .project-width .card .img-contant {
+  position: relative;
+  border-radius: 12px;
+  height: 400px;
+  width: 300px;
   overflow: hidden;
-  max-height: 300px;
 }
 
-.project-contant .project-center .project-cards .card .img-contant img {
-  border-radius: 5px;
+.project-contant .project-center .project-cards .project-width .card .img-contant img {
   width: 100%;
 }
 
-.project-contant .project-center .project-cards .card .tags {
+.project-contant .project-center .project-cards .project-width .card .tags {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,46 +531,123 @@ body {
           justify-content: flex-start;
 }
 
-.project-contant .project-center .project-cards .card .tags span {
-  font-size: 90%;
+.project-contant .project-center .project-cards .project-width .card .tags span {
+  font-size: 14px;
   padding-left: 0.3rem;
   color: #010b0e8f;
   font-weight: 600;
 }
 
-.project-contant .project-center .project-cards .card .title {
+.project-contant .project-center .project-cards .project-width .card .title {
   margin: 0.5rem 0;
 }
 
-.project-contant .project-center .project-cards .card .desc {
+.project-contant .project-center .project-cards .project-width .card .desc {
   text-align: justify;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0.5rem 0;
 }
 
-.project-contant .project-center .project-cards .card .btn-contant {
+.project-contant .project-center .project-cards .project-width .card .btn-contant {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: 1rem;
 }
 
-.project-contant .project-center .project-cards .card .btn-contant .btn {
+.project-contant .project-center .project-cards .project-width .card .btn-contant .btn {
   border-radius: 12px;
   border: none;
   outline: none;
   padding: 0.5rem 1.5rem;
+  margin: 0.5rem 1rem;
   cursor: pointer;
   background-color: #b32442;
   color: #fff;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  font-weight: 600;
 }
 
-.project-contant .project-center .project-cards .card .btn-contant .btn:hover {
+.project-contant .project-center .project-cards .project-width .card .btn-contant .btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-contant .project-center .project-cards .project-width .card .btn-contant .btn:hover {
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
+}
+
+.contact-contant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-contant .contact-center {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+}
+
+.contact-contant .contact-center .top a {
+  color: #f2f2f2;
+  padding: 0.8rem;
+  border-radius: 8px;
+  background-color: #b32442;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.contact-contant .contact-center .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-contant .contact-center .social .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-contant .contact-center .social .icons a {
+  color: #b32442;
+  margin: 0.5rem;
+}
+
+.contact-contant .contact-center .social .icons a span {
+  font-size: 140%;
+}
+
+.contact-contant .contact-center .social .email {
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+.contact-contant .contact-center .social .footer {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */

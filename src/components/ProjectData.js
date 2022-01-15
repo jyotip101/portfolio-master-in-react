@@ -4,8 +4,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148105268-08e750f1-444e-4a54-b161-559d0c116065.png',
     demo: 'https://jyotip101.github.io/birthday-reminder-in-react/',
-    code: 'https://github.com/jyotip101/birthday-reminder-in-react',
-    text: 'Birthday Reminder',
+    sourceCode: 'https://github.com/jyotip101/birthday-reminder-in-react',
+    title: 'Birthday Reminder',
     language: ['react', 'CSS'],
   },
   {
@@ -13,8 +13,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148176682-43a01ad9-f227-4927-896a-be01c7692de5.png',
     demo: 'https://jyotip101.github.io/tour-cards-in-reactjs/',
-    code: 'https://github.com/jyotip101/tour-cards-in-reactjs',
-    text: 'Tour Cards',
+    sourceCode: 'https://github.com/jyotip101/tour-cards-in-reactjs',
+    title: 'Tour Cards',
     language: ['react', 'CSS'],
   },
   {
@@ -22,8 +22,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148340979-5910b439-1f37-4eb6-a733-0a459cbda22c.png',
     demo: 'https://jyotip101.github.io/our-reviews-project-in-react/',
-    code: 'https://github.com/jyotip101/our-reviews-project-in-react',
-    text: 'Our Rreviews page',
+    sourceCode: 'https://github.com/jyotip101/our-reviews-project-in-react',
+    title: 'Our Rreviews page',
     language: ['react', 'CSS'],
   },
   {
@@ -31,8 +31,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148348578-09d7677a-7e8c-4e7f-81ac-ff7c1cd7b9b3.png',
     demo: 'https://jyotip101.github.io/accordion-in-react/',
-    code: 'https://github.com/jyotip101/accordion-in-react',
-    text: 'Accordion of Questions',
+    sourceCode: 'https://github.com/jyotip101/accordion-in-react',
+    title: 'Accordion of Questions',
     language: ['react', 'CSS'],
   },
   {
@@ -40,8 +40,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148646635-2af8c898-0157-4e40-a5fd-1043495d48fc.png',
     demo: 'https://jyotip101.github.io/menu-page-in-react/',
-    code: 'https://github.com/jyotip101/menu-page-in-react',
-    text: 'Menu Page',
+    sourceCode: 'https://github.com/jyotip101/menu-page-in-react',
+    title: 'Menu Page',
     language: ['react', 'CSS'],
   },
   {
@@ -49,8 +49,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148671747-6b7fa4bd-11a4-4ad9-be49-bcfae7f867eb.png',
     demo: 'https://jyotip101.github.io/tabs-my-team-project-in-react/',
-    code: 'https://github.com/jyotip101/tabs-my-team-project-in-react',
-    text: 'Tabs | My Team',
+    sourceCode: 'https://github.com/jyotip101/tabs-my-team-project-in-react',
+    title: 'Tabs | My Team',
     language: ['react', 'CSS'],
   },
   {
@@ -58,8 +58,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148767415-08abfb21-74ad-467a-bd4a-e8c43fb75953.png',
     demo: 'https://jyotip101.github.io/slider-project-in-react/',
-    code: 'https://github.com/jyotip101/slider-project-in-react',
-    text: 'Slider | Responsive Design Projects',
+    sourceCode: 'https://github.com/jyotip101/slider-project-in-react',
+    title: 'Slider | Responsive Design Projects',
     language: ['react', 'CSS'],
   },
   {
@@ -67,8 +67,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/148904481-abf61668-8952-4375-b075-beaf0a16575d.png',
     demo: 'https://jyotip101.github.io/slider-project-in-react/',
-    code: 'https://github.com/jyotip101/slider-project-in-react',
-    text: 'Lorem Ipsum Generator',
+    sourceCode: 'https://github.com/jyotip101/slider-project-in-react',
+    title: 'Lorem Ipsum Generator',
     language: ['react', 'CSS'],
   },
   {
@@ -76,8 +76,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/143888624-10299ac2-66de-47aa-b64b-7b7d6199ed40.png',
     demo: 'https://jyotip101.github.io/grocery-bud-react/',
-    code: 'https://github.com/jyotip101/grocery-bud-react',
-    text: 'Grocery Bud',
+    sourceCode: 'https://github.com/jyotip101/grocery-bud-react',
+    title: 'Grocery Bud',
     language: ['react', 'CSS'],
   },
   {
@@ -85,8 +85,8 @@ export const reactProject = [
     imgUrl:
       'https://user-images.githubusercontent.com/66724598/138817562-87947783-3c18-4a2c-bc71-7b59317f13b1.png',
     demo: 'https://jyotip101.github.io/Todo-App-in-ReactJS/',
-    code: 'https://github.com/jyotip101/Todo-App-in-ReactJS',
-    text: 'TO-DO App',
+    sourceCode: 'https://github.com/jyotip101/Todo-App-in-ReactJS',
+    title: 'TO-DO App',
     language: ['react', 'CSS'],
   },
 ]
@@ -100,7 +100,7 @@ export const responsiveProject = [
     title: 'My Gallery',
     description:
       "It's the UI of the Instagram profile page. I use CSS Grid properties to display images.",
-    language: ['HTML', 'CSS', 'Responsive'],
+    language: ['CSS', 'Responsive'],
   },
   {
     id: 2,
@@ -111,7 +111,7 @@ export const responsiveProject = [
     title: 'Interior Consultant Page',
     description:
       'its simple UI or front-end of Interior Consultant page and navbar is responsive on a small screen.',
-    language: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
+    language: ['CSS', 'JavaScript', 'Responsive'],
   },
   {
     id: 3,
@@ -134,7 +134,7 @@ export const responsiveProject = [
     title: 'Recipe Page',
     description:
       "This project is the UI of the recipe blog page. it's responsive.",
-    language: ['HTML', 'CSS', 'Responsive'],
+    language: ['CSS', 'Responsive'],
   },
   {
     id: 5,
@@ -145,7 +145,7 @@ export const responsiveProject = [
     title: 'Checkout Page',
     description:
       "its simple UI or front-end of check out page it's didn't have any functionality, I use SCSS for styling",
-    language: ['HTML', 'SCSS', 'Responsive'],
+    language: ['SCSS', 'Responsive'],
   },
   {
     id: 6,
@@ -156,7 +156,7 @@ export const responsiveProject = [
     title: 'My Team Page',
     description:
       'This project is the UI of the Team details page. for making this I use transform properties of CSS.',
-    language: ['HTML', 'CSS', 'Responsive'],
+    language: ['CSS', 'Responsive'],
   },
   {
     id: 7,
@@ -166,6 +166,42 @@ export const responsiveProject = [
     demo: 'https://jyotip101.github.io/404-not-found-page/',
     title: '404 Not Found Page',
     description: "it's a simple User Interface of 404 - Not found page.",
-    language: ['HTML', 'CSS', 'Responsive'],
+    language: ['CSS', 'Responsive'],
   },
+]
+
+export const apiProject = [
+  {
+    id: 1,
+    imgUrl:
+      'https://user-images.githubusercontent.com/66724598/140256670-75464fad-135c-4cc6-917c-d5331a65fa62.gif',
+    sourceCode: 'https://github.com/jyotip101/Dad-Jokes-API',
+    demo: 'https://jyotip101.github.io/Dad-Jokes-API/',
+    title: 'Dad Joke app',
+    description:
+      'A Dad Joke app, which displays jokes every time when we click on a button.',
+    language: ['CSS', 'API', 'vanillajs'],
+  },
+  {
+    id: 2,
+    imgUrl:
+      'https://user-images.githubusercontent.com/66724598/139820715-9f86a522-6869-4740-a057-2dc3ffa36dd6.gif',
+    sourceCode: 'https://github.com/jyotip101/Yes-No-Api',
+    demo: 'https://jyotip101.github.io/Yes-No-Api/',
+    title: 'Yes No app',
+    description:
+      'A Yes No app, which gives the answer to the question only in Yes or No',
+    language: ['CSS', 'API', 'JavaScript ES6'],
+  },
+  // {
+  //   id: 3,
+  //   imgUrl:
+  //     'https://user-images.githubusercontent.com/66724598/139820715-9f86a522-6869-4740-a057-2dc3ffa36dd6.gif',
+  //   sourceCode: 'https://github.com/jyotip101/weather-app',
+  //   demo: 'https://jyotip101.github.io/weather-app',
+  //   title: 'Weather App',
+  //   description:
+  //     'An Weather app that allows users to search weather by city name.',
+  //   language: ['CSS', 'API', 'JavaScript '],
+  // },
 ]
