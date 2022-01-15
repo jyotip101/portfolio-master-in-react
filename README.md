@@ -13,9 +13,9 @@ Portfolio Master</h1>
       Demo
     </a>
     <span> | </span>
-    <!-- <a href="https://{your-url-to-the-solution}"> -->
+    <a href="https://devchallenges.io/solutions/TL02kPmYxdjdoyZ9KJOK">
       Solution
-    <!-- </a> -->
+    </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
       Challenge
