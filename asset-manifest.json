@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-master-in-react/static/css/main.2935dc3a.css",
-    "main.js": "/portfolio-master-in-react/static/js/main.a8e3feb5.js",
+    "main.js": "/portfolio-master-in-react/static/js/main.0b569939.js",
     "static/media/cooking.jpg": "/portfolio-master-in-react/static/media/cooking.3593589f8608a63b4923.jpg",
     "static/media/reading.jpg": "/portfolio-master-in-react/static/media/reading.1ced792f04223621ef12.jpg",
     "static/media/music.jpg": "/portfolio-master-in-react/static/media/music.2acf49cea3d2ac8655d2.jpg",
@@ -9,10 +9,10 @@
     "static/media/photo.jpg": "/portfolio-master-in-react/static/media/photo.fcf7f40f4022be3a382c.jpg",
     "index.html": "/portfolio-master-in-react/index.html",
     "main.2935dc3a.css.map": "/portfolio-master-in-react/static/css/main.2935dc3a.css.map",
-    "main.a8e3feb5.js.map": "/portfolio-master-in-react/static/js/main.a8e3feb5.js.map"
+    "main.0b569939.js.map": "/portfolio-master-in-react/static/js/main.0b569939.js.map"
   },
   "entrypoints": [
     "static/css/main.2935dc3a.css",
-    "static/js/main.a8e3feb5.js"
+    "static/js/main.0b569939.js"
   ]
 }
